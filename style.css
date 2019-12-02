@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho&display=swap');
+
+body{
+	margin: 0;
+	font-family: 'Rancho', cursive;
+}
+.wapper{
+	margin: 15px;
+}
+.meau{
+	background: #008eb0;
+	width: 100%;
+	height: 280px;
+}
+.baner .img{
+	background-image: url("./header/baner.jpg");
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+}
+.meau .logo-meau{
+	background-image: url("./header/logo.png");
+	width: 346px;
+    height: 179px;
+	background-size: cover;
+	margin-left: 53px;
+}
+.meau-ul li{
+	float: left;
+	padding: 14px;
+	list-style: none;
+	position: relative;
+	font-size: 20px;
+	color: #fff;
+	   
+}
+.meau-ul ul{
+	margin-left: 30%;
+	position: absolute;
+    top: 70px;
+}
+.search input{
+	margin-left: 70%;
+	position: absolute;
+    top: 90px;
+    width: 150px;
+    height: 14px;
+    border-radius: 30px;
+    border: none;
+    padding: 13px;
+}
+.adm .px{
+	width: 30px;
+	height: 30px;
+	background: #fff;
+	border-radius: 50px;
+	float: right;
+	margin: 3px;
+}
+.usa img{
+	    padding: 9px;
+    margin-left: -2px;
+}
